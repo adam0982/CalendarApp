@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC284D351AC5095600D5B7C1 /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC284D341AC5095600D5B7C1 /* SignatureView.m */; };
+		DC3B57871AB93F0800C4BCC5 /* OptionMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3B57861AB93F0800C4BCC5 /* OptionMenuViewController.m */; };
+		DC43934A1A8318D700DECD72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4393491A8318D700DECD72 /* main.m */; };
+		DC43934D1A8318D700DECD72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC43934C1A8318D700DECD72 /* AppDelegate.m */; };
+		DC4393531A8318D700DECD72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4393511A8318D700DECD72 /* Main.storyboard */; };
+		DC4393551A8318D700DECD72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4393541A8318D700DECD72 /* Images.xcassets */; };
+		DC4393581A8318D700DECD72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4393561A8318D700DECD72 /* LaunchScreen.xib */; };
+		DC4393641A8318D800DECD72 /* Homework_AgendaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4393631A8318D800DECD72 /* Homework_AgendaTests.m */; };
+		DC57C0B81A900A9500F3D2E3 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC57C0B71A900A9500F3D2E3 /* TeacherViewController.m */; };
+		DC5DCA401A8C840D0017B0BB /* UserCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DCA3F1A8C840D0017B0BB /* UserCellViewController.m */; };
+		DC5DCA441A8C86700017B0BB /* UserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DCA431A8C86700017B0BB /* UserCollectionViewCell.m */; };
+		DC7845F91ABBE22000E9C4C0 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7845F81ABBE22000E9C4C0 /* ResetPasswordViewController.m */; };
+		DC8F1F751A992AF4001B89C5 /* SchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F1F741A992AF4001B89C5 /* SchoolViewController.m */; };
+		DC9656711A9D6A4900892C80 /* HomeworkAssignments.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9656701A9D6A4900892C80 /* HomeworkAssignments.m */; };
+		DC96820C1AABE78200F711A3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DC96820B1AABE78200F711A3 /* User.m */; };
+		DC96820F1AABEAE300F711A3 /* studentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC96820E1AABEAE300F711A3 /* studentUser.m */; };
+		DC9682121AABEBA700F711A3 /* teacherUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9682111AABEBA700F711A3 /* teacherUser.m */; };
+		DC9682151AABEC0D00F711A3 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9682141AABEC0D00F711A3 /* School.m */; };
+		DCA8FF311A9047C4002ECB17 /* HomeworkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8FF301A9047C4002ECB17 /* HomeworkTableViewCell.m */; };
+		DCA8FF351A904D6A002ECB17 /* HomeworkEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8FF341A904D6A002ECB17 /* HomeworkEntry.m */; };
+		DCAA8B511AD60588006942DD /* StudyTimeInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA8B501AD60588006942DD /* StudyTimeInputViewController.m */; };
+		DCED6B3F1AA265500039F87C /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED6B3E1AA265500039F87C /* WelcomeScreenViewController.m */; };
+		DCF8087B1A86E78A00EFC25C /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF8087A1A86E78A00EFC25C /* DatabaseHelper.m */; };
+		DCF8087E1A86F06200EFC25C /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF8087D1A86F06200EFC25C /* AgendaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC43935E1A8318D700DECD72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC43933C1A8318D700DECD72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4393431A8318D700DECD72;
+			remoteInfo = "Homework Agenda";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC284D331AC5095600D5B7C1 /* SignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureView.h; sourceTree = "<group>"; };
+		DC284D341AC5095600D5B7C1 /* SignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureView.m; sourceTree = "<group>"; };
+		DC3B57851AB93F0800C4BCC5 /* OptionMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionMenuViewController.h; sourceTree = "<group>"; };
+		DC3B57861AB93F0800C4BCC5 /* OptionMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionMenuViewController.m; sourceTree = "<group>"; };
+		DC4393441A8318D700DECD72 /* Homework Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework Agenda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4393481A8318D700DECD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4393491A8318D700DECD72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC43934B1A8318D700DECD72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC43934C1A8318D700DECD72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4393521A8318D700DECD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4393541A8318D700DECD72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC4393571A8318D700DECD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC43935D1A8318D700DECD72 /* Homework AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework AgendaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4393621A8318D800DECD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4393631A8318D800DECD72 /* Homework_AgendaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_AgendaTests.m; sourceTree = "<group>"; };
+		DC57C0B61A900A9500F3D2E3 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		DC57C0B71A900A9500F3D2E3 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		DC5DCA3E1A8C840D0017B0BB /* UserCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCellViewController.h; sourceTree = "<group>"; };
+		DC5DCA3F1A8C840D0017B0BB /* UserCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCellViewController.m; sourceTree = "<group>"; };
+		DC5DCA421A8C86700017B0BB /* UserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCollectionViewCell.h; sourceTree = "<group>"; };
+		DC5DCA431A8C86700017B0BB /* UserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCollectionViewCell.m; sourceTree = "<group>"; };
+		DC7845F71ABBE22000E9C4C0 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		DC7845F81ABBE22000E9C4C0 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		DC8F1F731A992AF4001B89C5 /* SchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolViewController.h; sourceTree = "<group>"; };
+		DC8F1F741A992AF4001B89C5 /* SchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolViewController.m; sourceTree = "<group>"; };
+		DC96566F1A9D6A4900892C80 /* HomeworkAssignments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkAssignments.h; sourceTree = "<group>"; };
+		DC9656701A9D6A4900892C80 /* HomeworkAssignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkAssignments.m; sourceTree = "<group>"; };
+		DC96820A1AABE78200F711A3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DC96820B1AABE78200F711A3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DC96820D1AABEAE300F711A3 /* studentUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentUser.h; sourceTree = "<group>"; };
+		DC96820E1AABEAE300F711A3 /* studentUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentUser.m; sourceTree = "<group>"; };
+		DC9682101AABEBA700F711A3 /* teacherUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teacherUser.h; sourceTree = "<group>"; };
+		DC9682111AABEBA700F711A3 /* teacherUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teacherUser.m; sourceTree = "<group>"; };
+		DC9682131AABEC0D00F711A3 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		DC9682141AABEC0D00F711A3 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		DCA8FF2F1A9047C4002ECB17 /* HomeworkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkTableViewCell.h; sourceTree = "<group>"; };
+		DCA8FF301A9047C4002ECB17 /* HomeworkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkTableViewCell.m; sourceTree = "<group>"; };
+		DCA8FF331A904D6A002ECB17 /* HomeworkEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkEntry.h; sourceTree = "<group>"; };
+		DCA8FF341A904D6A002ECB17 /* HomeworkEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkEntry.m; sourceTree = "<group>"; };
+		DCAA8B4F1AD60588006942DD /* StudyTimeInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyTimeInputViewController.h; sourceTree = "<group>"; };
+		DCAA8B501AD60588006942DD /* StudyTimeInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyTimeInputViewController.m; sourceTree = "<group>"; };
+		DCED6B3D1AA265500039F87C /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
+		DCED6B3E1AA265500039F87C /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
+		DCF808791A86E78A00EFC25C /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		DCF8087A1A86E78A00EFC25C /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		DCF8087C1A86F06200EFC25C /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		DCF8087D1A86F06200EFC25C /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4393411A8318D700DECD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC43935A1A8318D700DECD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC43933B1A8318D700DECD72 = {
+			isa = PBXGroup;
+			children = (
+				DC4393461A8318D700DECD72 /* Homework Agenda */,
+				DC4393601A8318D700DECD72 /* Homework AgendaTests */,
+				DC4393451A8318D700DECD72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4393451A8318D700DECD72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4393441A8318D700DECD72 /* Homework Agenda.app */,
+				DC43935D1A8318D700DECD72 /* Homework AgendaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4393461A8318D700DECD72 /* Homework Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				DCA8FF321A9047CD002ECB17 /* HomeworkRow */,
+				DC5DCA411A8C86420017B0BB /* UserCells */,
+				DC57C0B51A8FD55500F3D2E3 /* Controllers */,
+				DC4393511A8318D700DECD72 /* Main.storyboard */,
+				DCF808791A86E78A00EFC25C /* DatabaseHelper.h */,
+				DCF8087A1A86E78A00EFC25C /* DatabaseHelper.m */,
+				DC4393541A8318D700DECD72 /* Images.xcassets */,
+				DC4393561A8318D700DECD72 /* LaunchScreen.xib */,
+				DC4393471A8318D700DECD72 /* Supporting Files */,
+				DCA8FF331A904D6A002ECB17 /* HomeworkEntry.h */,
+				DCA8FF341A904D6A002ECB17 /* HomeworkEntry.m */,
+				DC96566F1A9D6A4900892C80 /* HomeworkAssignments.h */,
+				DC9656701A9D6A4900892C80 /* HomeworkAssignments.m */,
+				DC96820A1AABE78200F711A3 /* User.h */,
+				DC96820B1AABE78200F711A3 /* User.m */,
+				DC96820D1AABEAE300F711A3 /* studentUser.h */,
+				DC96820E1AABEAE300F711A3 /* studentUser.m */,
+				DC9682101AABEBA700F711A3 /* teacherUser.h */,
+				DC9682111AABEBA700F711A3 /* teacherUser.m */,
+				DC9682131AABEC0D00F711A3 /* School.h */,
+				DC9682141AABEC0D00F711A3 /* School.m */,
+				DC284D331AC5095600D5B7C1 /* SignatureView.h */,
+				DC284D341AC5095600D5B7C1 /* SignatureView.m */,
+			);
+			path = "Homework Agenda";
+			sourceTree = "<group>";
+		};
+		DC4393471A8318D700DECD72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC43934B1A8318D700DECD72 /* AppDelegate.h */,
+				DC43934C1A8318D700DECD72 /* AppDelegate.m */,
+				DC4393481A8318D700DECD72 /* Info.plist */,
+				DC4393491A8318D700DECD72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC4393601A8318D700DECD72 /* Homework AgendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4393631A8318D800DECD72 /* Homework_AgendaTests.m */,
+				DC4393611A8318D800DECD72 /* Supporting Files */,
+			);
+			path = "Homework AgendaTests";
+			sourceTree = "<group>";
+		};
+		DC4393611A8318D800DECD72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC4393621A8318D800DECD72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC57C0B51A8FD55500F3D2E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC7845F71ABBE22000E9C4C0 /* ResetPasswordViewController.h */,
+				DC7845F81ABBE22000E9C4C0 /* ResetPasswordViewController.m */,
+				DC3B57851AB93F0800C4BCC5 /* OptionMenuViewController.h */,
+				DC3B57861AB93F0800C4BCC5 /* OptionMenuViewController.m */,
+				DCED6B3D1AA265500039F87C /* WelcomeScreenViewController.h */,
+				DCED6B3E1AA265500039F87C /* WelcomeScreenViewController.m */,
+				DC57C0B61A900A9500F3D2E3 /* TeacherViewController.h */,
+				DC57C0B71A900A9500F3D2E3 /* TeacherViewController.m */,
+				DC5DCA3E1A8C840D0017B0BB /* UserCellViewController.h */,
+				DC5DCA3F1A8C840D0017B0BB /* UserCellViewController.m */,
+				DCF8087C1A86F06200EFC25C /* AgendaViewController.h */,
+				DCF8087D1A86F06200EFC25C /* AgendaViewController.m */,
+				DC8F1F731A992AF4001B89C5 /* SchoolViewController.h */,
+				DC8F1F741A992AF4001B89C5 /* SchoolViewController.m */,
+				DCAA8B4F1AD60588006942DD /* StudyTimeInputViewController.h */,
+				DCAA8B501AD60588006942DD /* StudyTimeInputViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DC5DCA411A8C86420017B0BB /* UserCells */ = {
+			isa = PBXGroup;
+			children = (
+				DC5DCA421A8C86700017B0BB /* UserCollectionViewCell.h */,
+				DC5DCA431A8C86700017B0BB /* UserCollectionViewCell.m */,
+			);
+			name = UserCells;
+			sourceTree = "<group>";
+		};
+		DCA8FF321A9047CD002ECB17 /* HomeworkRow */ = {
+			isa = PBXGroup;
+			children = (
+				DCA8FF2F1A9047C4002ECB17 /* HomeworkTableViewCell.h */,
+				DCA8FF301A9047C4002ECB17 /* HomeworkTableViewCell.m */,
+			);
+			name = HomeworkRow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4393431A8318D700DECD72 /* Homework Agenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4393671A8318D800DECD72 /* Build configuration list for PBXNativeTarget "Homework Agenda" */;
+			buildPhases = (
+				DC4393401A8318D700DECD72 /* Sources */,
+				DC4393411A8318D700DECD72 /* Frameworks */,
+				DC4393421A8318D700DECD72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework Agenda";
+			productName = "Homework Agenda";
+			productReference = DC4393441A8318D700DECD72 /* Homework Agenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC43935C1A8318D700DECD72 /* Homework AgendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC43936A1A8318D800DECD72 /* Build configuration list for PBXNativeTarget "Homework AgendaTests" */;
+			buildPhases = (
+				DC4393591A8318D700DECD72 /* Sources */,
+				DC43935A1A8318D700DECD72 /* Frameworks */,
+				DC43935B1A8318D700DECD72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC43935F1A8318D700DECD72 /* PBXTargetDependency */,
+			);
+			name = "Homework AgendaTests";
+			productName = "Homework AgendaTests";
+			productReference = DC43935D1A8318D700DECD72 /* Homework AgendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC43933C1A8318D700DECD72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Adam Serruys";
+				TargetAttributes = {
+					DC4393431A8318D700DECD72 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DC43935C1A8318D700DECD72 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DC4393431A8318D700DECD72;
+					};
+				};
+			};
+			buildConfigurationList = DC43933F1A8318D700DECD72 /* Build configuration list for PBXProject "Homework Agenda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC43933B1A8318D700DECD72;
+			productRefGroup = DC4393451A8318D700DECD72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4393431A8318D700DECD72 /* Homework Agenda */,
+				DC43935C1A8318D700DECD72 /* Homework AgendaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4393421A8318D700DECD72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4393531A8318D700DECD72 /* Main.storyboard in Resources */,
+				DC4393581A8318D700DECD72 /* LaunchScreen.xib in Resources */,
+				DC4393551A8318D700DECD72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC43935B1A8318D700DECD72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4393401A8318D700DECD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC96820C1AABE78200F711A3 /* User.m in Sources */,
+				DCF8087E1A86F06200EFC25C /* AgendaViewController.m in Sources */,
+				DC9682121AABEBA700F711A3 /* teacherUser.m in Sources */,
+				DCA8FF311A9047C4002ECB17 /* HomeworkTableViewCell.m in Sources */,
+				DCAA8B511AD60588006942DD /* StudyTimeInputViewController.m in Sources */,
+				DC5DCA401A8C840D0017B0BB /* UserCellViewController.m in Sources */,
+				DC96820F1AABEAE300F711A3 /* studentUser.m in Sources */,
+				DCED6B3F1AA265500039F87C /* WelcomeScreenViewController.m in Sources */,
+				DC7845F91ABBE22000E9C4C0 /* ResetPasswordViewController.m in Sources */,
+				DC9656711A9D6A4900892C80 /* HomeworkAssignments.m in Sources */,
+				DCF8087B1A86E78A00EFC25C /* DatabaseHelper.m in Sources */,
+				DC3B57871AB93F0800C4BCC5 /* OptionMenuViewController.m in Sources */,
+				DC5DCA441A8C86700017B0BB /* UserCollectionViewCell.m in Sources */,
+				DC57C0B81A900A9500F3D2E3 /* TeacherViewController.m in Sources */,
+				DC9682151AABEC0D00F711A3 /* School.m in Sources */,
+				DC284D351AC5095600D5B7C1 /* SignatureView.m in Sources */,
+				DCA8FF351A904D6A002ECB17 /* HomeworkEntry.m in Sources */,
+				DC43934D1A8318D700DECD72 /* AppDelegate.m in Sources */,
+				DC8F1F751A992AF4001B89C5 /* SchoolViewController.m in Sources */,
+				DC43934A1A8318D700DECD72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4393591A8318D700DECD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4393641A8318D800DECD72 /* Homework_AgendaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC43935F1A8318D700DECD72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4393431A8318D700DECD72 /* Homework Agenda */;
+			targetProxy = DC43935E1A8318D700DECD72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4393511A8318D700DECD72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4393521A8318D700DECD72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4393561A8318D700DECD72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4393571A8318D700DECD72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4393651A8318D800DECD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DC4393661A8318D800DECD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4393681A8318D800DECD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Homework Agenda/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC4393691A8318D800DECD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Homework Agenda/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC43936B1A8318D800DECD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Homework AgendaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework Agenda.app/Homework Agenda";
+			};
+			name = Debug;
+		};
+		DC43936C1A8318D800DECD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Homework AgendaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework Agenda.app/Homework Agenda";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC43933F1A8318D700DECD72 /* Build configuration list for PBXProject "Homework Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4393651A8318D800DECD72 /* Debug */,
+				DC4393661A8318D800DECD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4393671A8318D800DECD72 /* Build configuration list for PBXNativeTarget "Homework Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4393681A8318D800DECD72 /* Debug */,
+				DC4393691A8318D800DECD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC43936A1A8318D800DECD72 /* Build configuration list for PBXNativeTarget "Homework AgendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC43936B1A8318D800DECD72 /* Debug */,
+				DC43936C1A8318D800DECD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC43933C1A8318D700DECD72 /* Project object */;
+}
